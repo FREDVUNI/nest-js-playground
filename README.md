@@ -16,21 +16,24 @@ To get started with NestJS, you first need to install it. You can install NestJS
 
 To install NestJS using npm, run the following command:
 
-```npm install --save @nestjs/core @nestjs/common @nestjs/platform-express
+```
+npm install --save @nestjs/core @nestjs/common @nestjs/platform-express
 ```
 
 ### Installing NestJS using yarn
 
 To install NestJS using yarn, run the following command:
 
-```yarn add @nestjs/core @nestjs/common @nestjs/platform-express
+```
+yarn add @nestjs/core @nestjs/common @nestjs/platform-express
 ```
 
 ## Basic Usage
 
 Once you have installed NestJS, you can create a new project using the `nest new` command. This will create a new NestJS project with a basic directory structure and some example files.
 
-```nest new my-app
+```
+nest new my-app
 ```
 
 ### Creating a Controller
