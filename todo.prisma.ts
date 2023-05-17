@@ -105,7 +105,7 @@ import { updateDto  } from './dto/update.dto'
 export class CategoryController{
     constructor (private categoryService:Categoryservice){}
 
-    @post()
+    @Post()
     async createCategory(@Body() dto:createDto){
         return this.categoryService.create(dto)
     }
