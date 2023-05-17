@@ -124,6 +124,8 @@ export class CategoryController{
     async updateCategory(@Param('id',ParseIntPipe) id:number,@Body() dto:updateDto){
         return this.categoryService.update(id,dto)
     }
+
+    @Delete()
     async deleteCategory(@Param('id',ParseIntPipe) id:number){
         return this.categoryService.delete(id)
     }
